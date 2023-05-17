@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-05-17T08:11:20.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="winq5yEU1tYDeCSEgHjG" version="21.3.2" type="github">
+  <diagram name="Page-1" id="FU6AjaFklKDUhlcggamq">
+    <mxGraphModel dx="1190" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-1" value="Employee&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-2" value="Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-3" value="Exchange" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-4" value="HRIS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-5" value="Extensions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-17" value="Payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-6" target="_hTMtGXzIrgqlZ__GWQi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-6" value="Ebury" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-7" value="eureka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-8" value="Payment via API" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-3" target="_hTMtGXzIrgqlZ__GWQi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-10" value="Employee&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="725" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.425;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-3" target="_hTMtGXzIrgqlZ__GWQi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-18" value="Net deduction pay element" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_hTMtGXzIrgqlZ__GWQi-11">
+          <mxGeometry x="-0.0057" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-12" value="master data" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-4" target="_hTMtGXzIrgqlZ__GWQi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-15" value="Fund 10k balance periodically" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-13" target="_hTMtGXzIrgqlZ__GWQi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-13" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-19" value="HRIS Time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-20" value="Time data via API" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.558;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-19" target="_hTMtGXzIrgqlZ__GWQi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-21" value="Calculate amount, balance" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_hTMtGXzIrgqlZ__GWQi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-28" value="Amount to be paid" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hTMtGXzIrgqlZ__GWQi-5" target="_hTMtGXzIrgqlZ__GWQi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hTMtGXzIrgqlZ__GWQi-29" value="Configuration" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="140" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
